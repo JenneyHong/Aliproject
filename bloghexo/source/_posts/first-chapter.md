@@ -3,6 +3,7 @@ title: first chapter
 date: 2017-12-08 17:06:28
 tags: test
 ---
+
 # My first chapter
 
 HEXO + gitpage + Aliyun ECS == blog
@@ -20,6 +21,8 @@ npm install -g hexo
 
 npm install
 ```
+
+<!-- more -->
 
 3. git install
 
