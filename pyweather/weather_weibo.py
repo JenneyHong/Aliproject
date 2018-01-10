@@ -32,7 +32,7 @@ word_count = 1
 
 print u'爬虫准备就绪...'
 
-for page in range(1, 20):
+for page in range(1, 3):
 	url = 'http://weibo.cn/u/%d?filter=1&page=%d' % (user_id,page)
 	lxml = requests.get(url,cookies = cookie).content
 
@@ -47,7 +47,7 @@ for page in range(1, 20):
 		result = result + text
 		word_count +=1
 
-fo = open("/home/joan/project/pyweather/weatherdata.txt", "wb")
+fo = open("/home/joan/project/pyweather/weatherdata_2.txt", "wb")
 fo.write(result)
 word_path=os.getcwd()
 print u'文字微博爬取完毕'
